@@ -1,0 +1,109 @@
+
+/* Navbar */
+
+#mainheader,
+#navbar {
+    font-size: 15px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#mainheader .brand,
+#navbar .brand {
+  float: none;
+  padding-bottom: 20px;
+}
+
+#mainheader ul,
+#navbar ul {
+  float: none;
+}
+
+#mainheader #navbar ul li a {
+    text-align: center;
+}
+
+#mainheader ul {
+  padding-left: 20px;
+}
+
+#mainheader ul li a,
+#navbar ul li a {
+  padding: 10px;
+}
+
+/* Showcase */
+#showcase {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#showcase h2 span {
+    text-align: center;
+}
+
+
+#showcase h2 {
+  padding-left: 0px;
+  padding-top: 10px;
+  
+}
+
+#showcase .uno {
+    text-align: center;
+}
+
+#showcase p {
+    margin-top: 30px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+/* About */
+#about {
+    height: 100%;
+  }
+  
+  .text-left,
+  .text-right {
+    float: none;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
+  /* Services */
+  #services {
+    height: 100%;
+  }
+  
+  #services h2 {
+    padding-bottom: 30px;
+  }
+  
+  .card   {
+    float: none;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Contact */
+  #contact {
+    height: 100%;
+    padding-top: 50px;
+  }
+  
+  #contact h2 {
+    padding-bottom: 40px;
+  }
+  
+  #contact form {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  
+  /* Footer */
+  #mainfooter {
+    padding: 20px;
+    height: 100%;
+  }
