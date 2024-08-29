@@ -250,6 +250,14 @@ padding-left: 0px;
    form:has(:focus-visible:valid) input {
     outline-color: rgb(55, 255, 0);
   }
+
+  form:has(:focus-visible:invalid) textarea {
+    outline-color: rgb(255, 0, 8);
+  }
+
+  form:has(:focus-visible:valid) textarea {
+    outline-color: rgb(55, 255, 0);
+  }
   
   form .form-group {
     margin-bottom: 1rem;
