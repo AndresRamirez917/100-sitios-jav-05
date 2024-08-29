@@ -243,18 +243,12 @@ padding-left: 0px;
     margin-bottom: 1rem;
   }
 
-
-
-  form:has(label):has(:focus:invalid) {
-    color: red;
+  form:has(:focus-visible:invalid) input {
+    outline-color: rgb(255, 0, 0);
   }
 
-  form:has(label):has(:focus:valid) {
-    color: rgb(13, 235, 28);
-  }
-
-  label:has(:focus-visible:invalid) input {
-    outline-color: red;
+   form:has(:focus-visible:valid) input {
+    outline-color: rgb(55, 255, 0);
   }
   
   form .form-group {
